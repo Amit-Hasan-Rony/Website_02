@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+}
+
+.full_body_container{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.navigation_bar_full{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left_side_nav_bar{
+	display: flex;
+}
+
+.right_side_nav_bar{
+	display: flex;
+}
+
+.left_side_nav_bar_e_1{
+	margin-right: 10px;
+	padding: 8px;
+}
+
+.right_side_nav_bar_e_1{
+	margin-right: 10px;
+	padding: 8px;
+}
+
+.left_side_nav_bar_e_1 a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.right_side_nav_bar_e_1 a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.left_side_nav_bar_e_1 a:hover{
+	color: black;
+	margin-bottom: 1px solid black;
+}
+
+.left_side_nav_bar_e_1:hover{
+	border-bottom: 1px solid black;
+}
+
+.right_side_nav_bar_e_1 a:hover{
+	color: black;
+	margin-bottom: 1px solid black;
+}
+
+.right_side_nav_bar_e_1:hover{
+	border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+.about_me_full{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.image_division{
+	margin-left: 100px;
+	margin-right: 25px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+.imformation_division{
+	margin-left: 10px;
+	margin-right: 50px;
+	margin-top: 200px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,97 @@
+body{
+	margin: 0px;
+}
+
+.full_body_container{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.navigation_bar_full{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left_side_nav_bar{
+	display: flex;
+}
+
+.right_side_nav_bar{
+	display: flex;
+}
+
+.left_side_nav_bar_e_1{
+	margin-right: 10px;
+	padding: 8px;
+}
+
+.right_side_nav_bar_e_1{
+	margin-right: 10px;
+	padding: 8px;
+}
+
+.left_side_nav_bar_e_1 a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.right_side_nav_bar_e_1 a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.left_side_nav_bar_e_1 a:hover{
+	color: black;
+	margin-bottom: 1px solid black;
+}
+
+.left_side_nav_bar_e_1:hover{
+	border-bottom: 1px solid black;
+}
+
+.right_side_nav_bar_e_1 a:hover{
+	color: black;
+	margin-bottom: 1px solid black;
+}
+
+.right_side_nav_bar_e_1:hover{
+	border-bottom: 1px solid black;
+}
+
+.page_content{
+	
+}
+
+.information_div{
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-right: 25%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.image_div{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 50%;
+}
+
+.only_information{
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top:15%;
+	margin-bottom: 5%;
+	width: 50%;
+}
+
+.imge_class{
+	display: block;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
